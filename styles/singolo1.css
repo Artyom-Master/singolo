@@ -1,10 +1,5 @@
 @import "lato-fonts.css";
 
-/*.navigation-item {
-    opacity: 80%;
-    color: white;
-}*/
-
 * {
   margin: 0;
   font-family: "Lato", "Arial", sans-serif;
@@ -36,7 +31,7 @@ a {
 
 .white-logo {
     color: white;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .red-logo {
@@ -48,7 +43,10 @@ a {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 47%;
+  width: 36.3%;
+  font-size: 12px;
+  margin-top: 9px; 
+  font-weight: 700;
 }
 
 .marker {
@@ -79,9 +77,11 @@ a {
 }
 
 .left-arrow {
-    background: url('../assets/images/left-arrow.png');
-    height: 26px;
-    width: 16px;
+    background: url('../assets/images/left arrow.png');
+    height: 28px;
+    width: 15px;
+    margin-left: 14px;
+    margin-bottom: 3px;
 }
 
 .left-arrow:hover{
@@ -90,57 +90,68 @@ a {
 
 .right-arrow {
     background: url('../assets/images/right arrow.png');
-    height: 26px;
-    width: 16px;
+    height: 28px;
+    width: 15px;
+    margin-right: 11px;
+    margin-bottom: 3px;
 }
 
 .right-arrow:hover{
     background: url('../assets/images/black right arrow.png');
 }
 
+.horizontal-phone {
+    padding-left: 19px; 
+    padding-bottom: 2px;
+}
+
 .services {
   box-sizing: border-box;
-  padding: 65px 40px;
-  height: 493px;
+  padding: 63px 42px;
+  height: 490px;
   background-color: #f2f2f2;
   border-bottom: 6px solid white;
   color: #767e9e;
-  word-spacing: 2px;
+  
 }
 
 .our-services {
   font-weight: 300;
-  margin-bottom: 40px;
+  margin-bottom: 44px;
   line-height: 30px;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .our-services h2 {
   color: #666d89;
   font-weight: 900;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
+  font-size: 29.3px;
 }
 
 .grid-container {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
-  grid-gap: 40px 20px;
+  grid-gap: 30px 20px;
   font-weight: 400;
 }
 
 .grid-element {
   width: 300px;
-  height: 93px;
+  height: 95px;
   overflow: hidden;
   text-align: justify;
 }
 
 .grid-element p {
-  line-height: 22px;
+  line-height: 21px;
   font-size: 12px;
 }
 
 .grid-element img {
   float: left;
+  padding-top: 4px;
   padding-right: 20px;
   padding-bottom: 20px;
 }
@@ -148,6 +159,8 @@ a {
 .grid-element h3 {
   color: #666d89;
   margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 18px;
 }
 
 .pen {
