@@ -1,5 +1,53 @@
 @import "lato-fonts.css";
 
-body {
-    margin: 0 auto;
+/*.navigation-item {
+    opacity: 80%;
+    color: white;
+}*/
+
+* {
+  margin: 0;
 }
+
+body {
+  margin: 0 auto;
+  width: 1020px;
+}
+
+.header {
+  height: 89px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2D303A;
+  border-bottom: 6px solid #323746;
+}
+
+.logo {
+  margin-left: 40px;
+  padding: 0;
+}
+
+.navigation-bar {
+  margin-right: 40px;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 47%;
+}
+
+.marker {
+  color: grey;
+  opacity: 70%;
+}
+
+.navigation-item a {
+  color: white;
+  text-decoration: none;
+}
+
+.navigation-item-home a{
+   color: #F06C64;
+   text-decoration: none;
+}
+
