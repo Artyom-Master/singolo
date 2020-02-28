@@ -1,0 +1,6 @@
+@import "lato-fonts.css";
+
+* {
+  margin: 0;
+  font-family: "Lato", "Arial", sans-serif;
+}
