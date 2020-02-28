@@ -77,7 +77,7 @@ a {
 }
 
 .left-arrow {
-    background: url('../assets/images/left arrow.png');
+    background: url('../assets/images_singolo1/left arrow.png');
     height: 28px;
     width: 15px;
     margin-left: 14px;
@@ -85,11 +85,11 @@ a {
 }
 
 .left-arrow:hover{
-    background: url('../assets/images/black left arrow.png');
+    background: url('../assets/images_singolo1/black left arrow.png');
 }
 
 .right-arrow {
-    background: url('../assets/images/right arrow.png');
+    background: url('../assets/images_singolo1/right arrow.png');
     height: 28px;
     width: 15px;
     margin-right: 11px;
@@ -97,7 +97,7 @@ a {
 }
 
 .right-arrow:hover{
-    background: url('../assets/images/black right arrow.png');
+    background: url('../assets/images_singolo1/black right arrow.png');
 }
 
 .horizontal-phone {
