@@ -59,12 +59,8 @@ a {
   text-decoration: none;
 }
 
-.navigation-item-home a{
-  color: #f06c64;
-}
-
-.navigation-item:hover, .navigation-item-home:hover {
-    text-decoration: underline;
+.navigation-item a:hover {
+    color: #f06c64;
 }
 
 .slider {

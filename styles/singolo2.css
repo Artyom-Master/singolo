@@ -42,11 +42,6 @@ a {
 }
 
 .button:hover {
-  color: red;
-  border-color: red;
-}
-
-a .all{
   color: #dedede;
   border-color: #dedede;
 }
@@ -132,6 +127,8 @@ a .all{
 
 .facebook:hover {
   background: url('../assets/images_singolo2/f-icon-black.png');
+  background-color: #f06c64;
+  border-radius: 20px;
 }
 
 .google {
@@ -140,6 +137,8 @@ a .all{
 
 .google:hover{
   background: url('../assets/images_singolo2/g-icon-black.png');
+  background-color: #f06c64;
+  border-radius: 20px;
 }
 
 .twitter {
@@ -148,6 +147,8 @@ a .all{
 
 .twitter:hover{
   background: url('../assets/images_singolo2/t-icon-black.png');
+  background-color: #f06c64;
+  border-radius: 20px;
 }
 
 .linked {
@@ -156,9 +157,7 @@ a .all{
 
 .linked:hover{
   background: url('../assets/images_singolo2/l-icon-black.png');
-}
-
-.facebook:hover {
-  background: url('../assets/images_singolo2/f-icon-black.png');
+  background-color: #f06c64;
+  border-radius: 20px;
 }
 
